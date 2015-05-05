@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+Homework 2. Create the following Web page using external CSS styles. 
+-->
+<html>
+    <head>
+        <title>Домашно 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="head">Contact name</th>
+                        <th class="head" id="bord1">City</th>
+                        <th class="head" id="bord2">Country</th>
+                        <th class="head" id="bord3">Is Promoted</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Maria Anders</td>
+                        <td class="border">Beriln</td>
+                        <td class="border"><img src="images/Germany.jpg" alt="Flag Germany">&nbsp; Germany</td>
+                        <td class="border"><input type="checkbox" value="apple" name="promo"></td>
+                    </tr>
+                    <tr class="background">
+                        <td>Ana Trudjillo</td>
+                        <td class="border">M&eacute;xico D.F.</td>
+                        <td class="border"><img src="images/Mexico.jpg" alt="Flag Mexico">&nbsp; Mexico</td>
+                        <td class="border"><input type="checkbox" value="apple" name="promo"></td>
+                    </tr>
+                    <tr>
+                        <td>Antonio Moreno</td>
+                        <td class="border">M&eacute;xico D.F.</td>
+                        <td class="border"><img src="images/Mexico.jpg" alt="Flag Mexico">&nbsp; Mexico</td>
+                        <td class="border"><input type="checkbox" value="apple" name="promo" checked></td>
+                    </tr>
+                    <tr class="background">
+                        <td>Thomas Hardy</td>
+                        <td class="border">London</td>
+                        <td class="border"><img src="images/UK.jpg" alt="Flag UK">&nbsp; UK</td>
+                        <td class="border"><input type="checkbox" value="apple" name="promo"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </body>
+</html>

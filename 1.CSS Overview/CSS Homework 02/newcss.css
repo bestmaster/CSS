@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    width: 600px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.head {
+    background-color: #5abb08;
+    color: whitesmoke;
+    text-align: left;
+}
+
+tr, th, td {
+    width: 150px;
+    height: 40px;
+    padding-left: 5px;
+}
+
+#bord1 {
+    border-left: 2px solid #C4C3A8;
+}
+
+#bord2 {
+    border-left: 2px solid #C4C3A8;
+}
+
+#bord3 {
+    border-left: 2px solid #C4C3A8;
+}
+
+.border {
+    border-left: 2px solid #C4C3A8;
+}
+
+.background {
+    background-color: #ededda;
+}
