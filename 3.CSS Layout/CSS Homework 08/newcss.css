@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    width: 130px;
+    height: 280px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#nav {
+    margin-top: 30px;
+    margin-left: 45%;
+}
+
+.menu {
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 10px;
+    max-height: 16px;
+    transition: max-height 500ms linear;
+}
+
+.menu:hover {
+    max-height: 160px;
+}
+
+.menu dd {
+    margin-left: 16px;
+    color: #888;
+}
+
+.menu a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
